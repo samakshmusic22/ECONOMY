@@ -1,19 +1,22 @@
 {
-  "name": "my-discord-bot",
+  "name": "economy-bot",
   "version": "1.0.0",
-  "description": "A Discord bot with various commands",
+  "description": "A Discord economy bot with various features",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "keywords": [
     "discord",
-    "bot"
+    "bot",
+    "economy"
   ],
-  "author": "Your Name",
+  "author": "Samaksh",
   "license": "MIT",
+  "type": "module",
   "dependencies": {
-    "discord.js": "^13.3.0",
-    "dotenv": "^10.0.0"
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
   }
 }
